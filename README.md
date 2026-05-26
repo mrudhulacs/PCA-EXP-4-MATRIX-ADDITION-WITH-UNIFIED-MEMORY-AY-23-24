@@ -1,9 +1,9 @@
 # PCA-EXP-4-MATRIX-ADDITION-WITH-UNIFIED-MEMORY AY 23-24
-<h3>AIM:</h3>
-<h3>ENTER YOUR NAME</h3>
-<h3>ENTER YOUR REGISTER NO</h3>
-<h3>EX. NO</h3>
-<h3>DATE</h3>
+<h3>AIM : To implement matrix addition using Unified Memory in CUDA, execute the program on GPU, and analyze its performance using NVIDIA Visual Profiler (nvprof) profiling tool. </h3>
+<h3>NAME : CHITTOOR SARAVANA MRUDHULA</h3>
+<h3>REGISTER NO : 212224040056</h3>
+<h3>EX. NO : 4</h3>
+<h3>DATE : 26/05/2026</h3>
 <h1> <align=center> MATRIX ADDITION WITH UNIFIED MEMORY </h3>
   Refer to the program sumMatrixGPUManaged.cu. Would removing the memsets below affect performance? If you can, check performance with nvprof or nvvp.</h3>
 
@@ -39,10 +39,14 @@ Allocate Host Memory
 22.	Reset the device using cudaDeviceReset and return from the main function.
 
 ## PROGRAM:
-TYPE YOUR CODE HERE
+
+
+
 
 ## OUTPUT:
-SHOW YOUR OUTPUT HERE
+
+
+
 
 ## RESULT:
 Thus the program has been executed by using unified memory. It is observed that removing memset function has given less/more_______________time.
