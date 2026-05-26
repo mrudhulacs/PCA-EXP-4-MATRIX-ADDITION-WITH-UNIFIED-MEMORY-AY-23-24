@@ -284,6 +284,12 @@ int main(int argc, char **argv)
 
 ```
 
+
+
+### Removing memset :
+
+
+
 ```cpp
 %%writefile unifmem2.cu
 #include <stdio.h>
@@ -535,19 +541,14 @@ int main(int argc, char **argv)
 
 <img width="1439" height="817" alt="image" src="https://github.com/user-attachments/assets/88656d52-01f7-44f2-918d-fe3fe1a4b76a" />
 
-
+### Removing memset :
 
 <img width="1493" height="818" alt="image" src="https://github.com/user-attachments/assets/ca0b43e3-f03c-4509-b7d5-62ba38723c65" />
 
 
 ## RESULT:
 
-```
-Thus the program has been executed by using unified memory. It is observed that removing memset function has given less execution time of about 0.058826 sec on host execution and 0.077579 sec on GPU execution.
-```
-```
-Thus the program has been executed by using unified memory. It is observed that using memset function has given more execution time of about 0.110298 sec on host execution and 0.107114 sec on GPU execution.
-```
+Thus the program has been executed by using unified memory. It is observed that removing the memset function has given less execution time.
 
 
 
